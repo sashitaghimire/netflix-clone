@@ -2,6 +2,7 @@ import React from 'react';
 import Row from './Row';
 import requests from './requests';
 import Banner from './Banner';
+import Nav from './Nav';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       {/* Nav bar */}
       {/* Banner */}
+      <Nav />
       <Banner />
       <Row  title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOrginals} isLargeRow/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
