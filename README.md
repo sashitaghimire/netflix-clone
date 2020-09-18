@@ -1,4 +1,4 @@
-[Live on firebase](https://netflix-clone-f2c15.web.app/)
+[Click here to watch demo](https://netflix-clone-f2c15.web.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
